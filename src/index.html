@@ -8,7 +8,7 @@ title: Home
         <h1>Seán McGoff</h1>
 
         <p class="highlighted">
-        Hello! I'm a 23 year old software developer based in Dublin, Ireland.
+        Hello! I'm a software engineer based in Dublin, Ireland.
         </p>
 
         <p class="highlighted">I'm passionate about:</p>
@@ -17,10 +17,8 @@ title: Home
             <li>Homelabbing</li>
             <li>The Irish language</li>
             <li>Philadelphia sports</li>
+            <li>Static-site blogs (evidently)</li>
         </ul>
-
-    </div>
-    <div class="cv-column">
         <h2>Recent posts</h2>
         <ul>
             {% assign posts = site.blog | sort: "date" | reverse %}
@@ -32,11 +30,22 @@ title: Home
             {% endfor %}
         </ul>
         <p><a href="{{ '/blog/' | relative_url }}">All posts <span aria-hidden="true">→</span></a></p>
+    </div>
+    <div class="cv-column">
         <h2>Where else to find me</h2>
         <ul class="highlighted">
             <li><a href="https://github.com/SeanMcGoff" aria-label="Seán's GitHub Profile">GitHub</a></li>
             <li><a href="https://www.linkedin.com/in/sean-mcgoff/" aria-label="Seán's LinkedIn Profile">LinkedIn</a></li>
         </ul>
+
+        <h2>Badges</h2>
+        <div class="badges">
+            {% for badge in site.data.badges %}
+            <a href="{{ badge.href }}">
+                <img src="{{ '/assets/badges/' | append: badge.file | relative_url }}" alt="{{ badge.alt }}" title="{{ badge.alt }}" width="88" height="31">
+            </a>
+            {% endfor %}
+        </div>
     </div>
 
 </div>

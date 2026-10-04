@@ -30,7 +30,6 @@
   font-display: swap;
 }
 
-
 html {
   height: 100%;
 }
@@ -191,4 +190,20 @@ label,
   font-style: normal;
   font-weight: normal;
   line-height: 1;
+}
+
+.badges {
+  display: grid;
+  grid-template-columns: repeat(4, 88px);
+  gap: 0;
+  line-height: 0;
+  margin-bottom: 1rem;
+}
+
+.badges img {
+  display: block;
+  margin: 0;
+  width: 88px;
+  height: 31px;
+  image-rendering: pixelated;
 }

@@ -1,0 +1,35 @@
+- file: arch-linux.png
+  alt: I use arch btw
+  href: https://archlinux.org/
+
+- file: fight-chat-control.png
+  alt: Fight Chat Control!
+  href: https://fightchatcontrol.eu
+
+- file: freeware.gif
+  alt: I love free software!
+  href: https://itsfoss.com/what-is-foss/
+
+- file: internetarchive.gif
+  alt: Internet Archive
+  href: https://archive.org/
+
+- file: learn-html.gif
+  alt: Learn html
+  href: https://www.w3schools.com/html/
+
+- file: linux-today.gif
+  alt: Switch to linux today!
+  href: https://distrochooser.de/
+
+- file: right-to-repair.png
+  alt: I support Right to Repair
+  href: https://www.repair.org/
+
+- file: rss.gif
+  alt: RSS Feed link
+  href: https://mcgoff.dev/feed.xml
+
+- file: vim.gif
+  alt: Made with vim
+  href: https://www.vim.org/

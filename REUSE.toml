@@ -2,6 +2,7 @@ version = 1
 
 [[annotations]]
 path = [
+  "src/_data/**",
   "src/_layouts/**",
   "src/_includes/**",
   "src/assets/css/**",
@@ -26,6 +27,7 @@ path = [
   "src/_education/**",
   "src/_leadership/**",
   "src/pages/**",
+  "src/assets/badges/**",
 ]
 precedence = "aggregate"
 SPDX-FileCopyrightText = "2026 Seán McGoff"
