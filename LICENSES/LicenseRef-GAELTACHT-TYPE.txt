@@ -1,0 +1,12 @@
+Anois Sans font by Gaeltacht Type "Grassroots Access"
+
+This is a pointer, not the full licence text. The font is NOT covered by
+this repository's AGPL-3.0 or CC BY-SA 4.0 licences. It is © Gaeltacht Type 2026.
+This font is used on this website under Gaeltacht Type's Grassroots Access Licensing.
+
+https://gaeltacht-type.com/access
+
+These font files are redistributed in this repository with Gaeltacht Type's
+permission, for this website only. This does not grant any right to use,
+copy or redistribute them elsewhere. If you are planning to use this font 
+commercially, obtain a licence from Gaeltacht Type.

@@ -32,10 +32,10 @@ SPDX-FileCopyrightText = "2026 Seán McGoff"
 SPDX-License-Identifier = "CC-BY-SA-4.0"
 
 [[annotations]]
-path = "src/assets/fonts/urgc/**"
+path = "src/assets/fonts/anois/**"
 precedence = "aggregate"
-SPDX-FileCopyrightText = "2022 Vincent Morley / Gaelchló"
-SPDX-License-Identifier = "LicenseRef-URCHLO-GC"
+SPDX-FileCopyrightText = "2026 Gaeltacht Type"
+SPDX-License-Identifier = "LicenseRef-GAELTACHT-TYPE"
 
 [[annotations]]
 path = "src/assets/mouse.cur"

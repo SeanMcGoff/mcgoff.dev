@@ -1,26 +1,35 @@
 @font-face {
-  font-family: "Urchlo GC";
-  src: url("../fonts/urgc/urgc.otf") format("opentype");
+  font-family: "Anois Sans";
+  src: url("../fonts/anois/Anois-Regular.woff") format("opentype");
   font-weight: 400;
   font-style: normal;
   font-display: swap;
 }
 
 @font-face {
-  font-family: "Urchlo GC";
-  src: url("../fonts/urgc/urigc.otf") format("opentype");
+  font-family: "Anois Sans";
+  src: url("../fonts/anois/Anois-RegularItalic.woff") format("opentype");
   font-weight: 400;
   font-style: italic;
   font-display: swap;
 }
 
 @font-face {
-  font-family: "Urchlo GC";
-  src: url("../fonts/urgc/urtgc.otf") format("opentype");
+  font-family: "Anois Sans";
+  src: url("../fonts/anois/Anois-Bold.woff") format("opentype");
   font-weight: 700;
   font-style: normal;
   font-display: swap;
 }
+
+@font-face {
+  font-family: "Anois Sans";
+  src: url("../fonts/anois/Anois-BoldItalic.woff") format("opentype");
+  font-weight: 700;
+  font-style: italic;
+  font-display: swap;
+}
+
 
 html {
   height: 100%;
@@ -118,15 +127,18 @@ h6 {
 }
 
 li {
-  margin-bottom: 0.5rem;
+  margin-bottom: 0.25rem;
+  margin-top: 0.25rem;
 }
 
 article[lang="ga"]:has(#gaelic-font:checked) {
-  font-family: "Urchlo GC", "Times New Roman", serif;
+  font-family: "Anois Sans", "Times New Roman", serif;
+  font-variant-ligatures: discretionary-ligatures;
 }
 
 .gaelic-font {
-  font-family: "Urchlo GC", "Times New Roman", serif;
+  font-family: "Anois Sans", "Times New Roman", serif;
+  font-variant-ligatures: discretionary-ligatures;
 }
 
 .highlighted {
