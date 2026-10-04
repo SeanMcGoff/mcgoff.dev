@@ -1,4 +1,6 @@
 _site/
 .bundle/
+.vscode/
 src/.jekyll-cache/
+src/.jekyll-metadata
 vendor/
