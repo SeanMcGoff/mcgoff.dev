@@ -5,13 +5,14 @@ path = [
   "src/_layouts/**",
   "src/_includes/**",
   "src/assets/css/**",
-  "src/index.html",
+  "src/*.html",
   "_config.yml",
+  ".gitignore",
   "Gemfile",
   "Gemfile.lock",
-  ".gitignore",
   "REUSE.toml",
   "README.md",
+  "wrangler.jsonc",
 ]
 precedence = "aggregate"
 SPDX-FileCopyrightText = "2026 Seán McGoff"
@@ -41,3 +42,9 @@ path = "src/assets/mouse.cur"
 precedence = "aggregate"
 SPDX-FileCopyrightText = "Daniel W."
 SPDX-License-Identifier = "LicenseRef-RW-DESIGNER"
+
+[[annotations]]
+path = "src/assets/fonts/nerd/**"
+precedence = "aggregate"
+SPDX-FileCopyrightText = "Fonticons, Inc. (Font Awesome Free), via Nerd Fonts"
+SPDX-License-Identifier = "OFL-1.1"

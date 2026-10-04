@@ -1,6 +1,6 @@
 title: mcgoff.dev
 description: Seán McGoff 
-url: ""
+url: "https://mcgoff.dev"
 baseurl: ""
 
 source: src
@@ -26,3 +26,12 @@ defaults:
     values: { layout: default }
   - scope: { path: "", type: blog }
     values: { layout: post }
+
+plugins:
+  - jekyll-feed
+
+feed:
+  path: feed/posts.xml
+  collections:
+    blog:
+      path: feed.xml

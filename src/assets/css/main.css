@@ -156,3 +156,21 @@ label,
 .cv-column {
   min-width: 0;
 }
+
+/* RSS glyph subset from Nerd Fonts (https://www.nerdfonts.com), MIT licence;
+   glyph originates from Font Awesome Free (CC BY 4.0). */
+@font-face {
+  font-family: "Nerd Font RSS";
+  src: url("../fonts/nerd/nf-rss.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+.nf-rss::before {
+  font-family: "Nerd Font RSS";
+  content: "\f09e";
+  font-style: normal;
+  font-weight: normal;
+  line-height: 1;
+}
