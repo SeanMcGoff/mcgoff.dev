@@ -1,0 +1,43 @@
+version = 1
+
+[[annotations]]
+path = [
+  "src/_layouts/**",
+  "src/_includes/**",
+  "src/assets/css/**",
+  "src/index.html",
+  "_config.yml",
+  "Gemfile",
+  "Gemfile.lock",
+  ".gitignore",
+  "REUSE.toml",
+  "README.md",
+]
+precedence = "aggregate"
+SPDX-FileCopyrightText = "2026 Seán McGoff"
+SPDX-License-Identifier = "AGPL-3.0-only"
+
+[[annotations]]
+path = [
+  "src/_blog/**",
+  "src/_projects/**",
+  "src/_work/**",
+  "src/_education/**",
+  "src/_leadership/**",
+  "src/pages/**",
+]
+precedence = "aggregate"
+SPDX-FileCopyrightText = "2026 Seán McGoff"
+SPDX-License-Identifier = "CC-BY-SA-4.0"
+
+[[annotations]]
+path = "src/assets/fonts/urgc/**"
+precedence = "aggregate"
+SPDX-FileCopyrightText = "2022 Vincent Morley / Gaelchló"
+SPDX-License-Identifier = "LicenseRef-URCHLO-GC"
+
+[[annotations]]
+path = "src/assets/mouse.cur"
+precedence = "aggregate"
+SPDX-FileCopyrightText = "Daniel W."
+SPDX-License-Identifier = "LicenseRef-RW-DESIGNER"

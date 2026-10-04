@@ -1,0 +1,28 @@
+title: mcgoff.dev
+description: Seán McGoff 
+url: ""
+baseurl: ""
+
+source: src
+destination: _site
+
+permalink: /blog/:title/
+
+collections:
+  blog:
+    output: true
+    permalink: /blog/:year/:month/:day/:title/
+  education:
+    output: false
+  work:
+    output: false
+  leadership:
+    output: false
+  projects:
+    output: false
+
+defaults:
+  - scope: { path: "" }
+    values: { layout: default }
+  - scope: { path: "", type: blog }
+    values: { layout: post }

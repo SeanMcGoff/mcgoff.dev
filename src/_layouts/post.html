@@ -1,0 +1,18 @@
+---
+layout: default
+---
+<article lang="{{ page.lang | default: 'en' }}">
+  <h1>{{ page.title }}</h1>
+  <div><i>{{ page.subtitle }}</i></div>
+  <time datetime="{{ page.date | date_to_xmlschema }}">{{ page.date | date: "%B %-d, %Y" }}</time>
+  {% if page.lang == 'ga' %}
+  <div class="gaelic-font">
+    <input type="checkbox" id="gaelic-font">
+    <label for="gaelic-font" lang="ga">Cló Gaelach</label>
+  </div>
+  {%  endif  %}
+  <hr>
+  <section class="article-body highlighted">
+    {{ content }}
+  </section>
+</article>

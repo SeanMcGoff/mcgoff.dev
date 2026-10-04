@@ -1,0 +1,158 @@
+@font-face {
+  font-family: "Urchlo GC";
+  src: url("../fonts/urgc/urgc.otf") format("opentype");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Urchlo GC";
+  src: url("../fonts/urgc/urigc.otf") format("opentype");
+  font-weight: 400;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Urchlo GC";
+  src: url("../fonts/urgc/urtgc.otf") format("opentype");
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+
+html {
+    height: 100%;
+}
+
+body {
+  margin: 0 auto;
+  box-sizing: border-box;
+  font-family: "Times New Roman", system-ui, serif;
+  line-height: 1.6;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+main {
+  flex: 1;
+  min-height: 0;
+  padding-left: 7%;
+  padding-right: 7%;
+  overflow-y: auto;
+  background-color: #5b92ff;
+  text-justify: auto;
+}
+
+header {
+  padding-left: 1%;
+  padding-right: 1%;
+  padding-top: 0.25%;
+  padding-bottom: 0.25%;
+  flex: 0 0 5%;
+  background-color: #c0c7cf;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+a:not(.btn) {
+  color: #001a66;
+  text-decoration-line: underline;
+  text-decoration-style: double;
+  text-decoration-thickness: 1px;
+  text-underline-offset: 0.2em;
+}
+
+a:not(.btn):visited {
+  color: #3b0a66;
+}
+
+a:not(.btn):active {
+  color: #ffffff;
+}
+
+a.btn {
+  display: inline-block;
+  padding: 2px 10px;
+  color: #000;
+  background-color: #c0c0c0;
+  text-decoration: none;
+  border: 2px solid;
+  border-color: #404040;
+}
+
+a.btn:active {
+  border-color: #fff;
+  color: #ffffff;
+  padding: 3px 9px 1px 11px;
+}
+
+footer {
+  padding-left: 1%;
+  padding-top: 0.5%;
+  flex: 0 0 3%;
+  background-color: #c0c7cf;
+}
+
+h1 {
+  background-color: #fdfdfd;
+  width: fit-content;
+  padding-left: 0.25em;
+  padding-right: 0.25em;
+  border: 1px solid black;
+}
+
+h2, h3, h4, h5, h6 {
+  background-color: #ededed;
+  width: fit-content;
+  padding-left: 0.25em;
+  padding-right: 0.25em;
+  border: 1px solid black;
+}
+
+article[lang="ga"]:has(#gaelic-font:checked) {
+  font-family: "Urchlo GC", "Times New Roman", serif;
+}
+
+.gaelic-font {
+  font-family: "Urchlo GC", "Times New Roman", serif;
+}
+
+.highlighted {
+  background-color: #9fbfff;
+  width: fit-content;
+  padding-left: 0.25em;
+  padding-right: 0.25em;
+  border: 1px solid black;
+}
+
+.article-body {
+  text-align: justify;
+  hyphens: auto;
+}
+
+html {
+  cursor: url("../mouse.cur"), auto;
+}
+
+a,
+button,
+summary,
+label,
+[role="button"] {
+  cursor: url("../mouse.cur"), pointer;
+}
+
+.cv-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(min(24em, 100%), 1fr));
+  column-gap: 2em;
+  align-items: start;
+}
+
+.cv-column {
+  min-width: 0;
+}

@@ -1,0 +1,61 @@
+---
+title: CV
+permalink: /cv/
+---
+<h1>Seán McGoff</h1>
+<hr>
+
+<div class="cv-grid">
+<div class="cv-column">
+<h2>Education</h2>
+<ul class="highlighted">
+  {% assign items = site.education | sort: "order" %}
+  {% for item in items %}
+  <li>
+    <b>{{ item.title }}</b>
+    <br>{{ item.role }}
+    <br>{{ item.dates }}
+  </li>
+  {% endfor %}
+</ul>
+
+<h2>Work Experience</h2>
+<ul class="highlighted">
+  {% assign items = site.work | sort: "order" %}
+  {% for item in items %}
+  <li>
+    <b>{{ item.title }}</b><br>{{ item.role }}<br>{{ item.dates }}
+    {{ item.content | markdownify }}
+  </li>
+  {% endfor %}
+</ul>
+
+</div>
+
+<div class="cv-column">
+<h2>Projects</h2>
+<ul class="highlighted">
+  {% for project in site.projects %}
+  <li>
+    <a href="{{ project.url_repo }}">{{ project.title }}</a><br>{% if project.summary %}{{ project.summary }}{% endif %}
+  </li>
+  {% endfor %}
+</ul>
+
+<h2>Leadership Achievements</h2>
+<ul class="highlighted">
+  {% assign items = site.leadership | sort: "order" %}
+  {% for item in items %}
+  <li>
+    <b>{{ item.title }}</b><br>{{ item.role }}<br>{{ item.dates }}
+  </li>
+  {% endfor %}
+</ul>
+
+<h2>Interests and Other Skills</h2>
+<ul class="highlighted">
+  <li>Working fluency in both Spanish and Irish (Gaeilge)</li>
+  <li>Music production and audio software</li>
+</ul>
+</div>
+</div>
