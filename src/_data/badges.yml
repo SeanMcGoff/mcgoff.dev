@@ -2,6 +2,10 @@
   alt: I use arch btw
   href: https://archlinux.org/
 
+- file: cowboys-suck.gif
+  alt: Cowboys Suck!
+  href: https://www.youtube.com/watch?v=ZymSrDfLhW8
+
 - file: fight-chat-control.png
   alt: Fight Chat Control!
   href: https://fightchatcontrol.eu
@@ -14,8 +18,16 @@
   alt: Internet Archive
   href: https://archive.org/
 
+- file: javascript-zero.gif
+  alt: Zero JavaScript!
+  href: https://webwithoutjs.com/
+
+- file: jellyfin.gif
+  alt: Jellyfin
+  href: https://jellyfin.org/
+
 - file: learn-html.gif
-  alt: Learn html
+  alt: Learn HTML 
   href: https://www.w3schools.com/html/
 
 - file: linux-today.gif
@@ -29,6 +41,10 @@
 - file: rss.gif
   alt: RSS Feed link
   href: https://mcgoff.dev/feed.xml
+
+- file: tá-gaeilge-agam.png
+  alt: Tá Gaeilge agam!
+  href: https://www.celtic-languages.org/Irish/Getting_started
 
 - file: vim.gif
   alt: Made with vim

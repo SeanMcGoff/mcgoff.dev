@@ -28,6 +28,7 @@ path = [
   "src/_leadership/**",
   "src/pages/**",
   "src/assets/badges/**",
+  "src/assets/favicon.ico",
 ]
 precedence = "aggregate"
 SPDX-FileCopyrightText = "2026 Seán McGoff"
