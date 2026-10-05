@@ -1,18 +1,20 @@
 ---
 layout: default
 ---
-<article lang="{{ page.lang | default: 'en' }}">
-  <h1>{{ page.title }}</h1>
+<article class="h-entry" lang="{{ page.lang | default: 'en' }}">
+  <a class="u-url" href="{{ page.url | absolute_url }}" hidden aria-hidden="true"></a>
+  <h1 class="p-name">{{ page.title }}</h1>
   <div><i class="post-subtitle">{{ page.subtitle }}</i></div>
-  <time datetime="{{ page.date | date_to_xmlschema }}">{{ page.date | date: "%B %-d, %Y" }}</time>
+  <time class="dt-published" datetime="{{ page.date | date_to_xmlschema }}">{{ page.date | date: "%B %-d, %Y" }}</time>
   {% if page.lang == 'ga' %}
   <div class="gaelic-font">
     <input type="checkbox" id="gaelic-font">
     <label for="gaelic-font" lang="ga">Cló Gaelach</label>
   </div>
   {%  endif  %}
+  <a class="p-author h-card" href="{{ '/' | absolute_url }}" hidden aria-hidden="true">Seán McGoff</a>
   <hr>
-  <section class="article-body highlighted">
+  <section class="article-body highlighted e-content">
     {{ content }}
   </section>
 </article>

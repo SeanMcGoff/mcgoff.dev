@@ -3,6 +3,9 @@ description: Seán McGoff
 url: "https://mcgoff.dev"
 baseurl: ""
 
+include:
+  - _redirects
+
 source: src
 destination: _site
 
