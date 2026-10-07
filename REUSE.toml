@@ -5,6 +5,7 @@ path = [
   "src/_data/**",
   "src/_layouts/**",
   "src/_includes/**",
+  "src/_redirects",
   "src/assets/css/**",
   "src/*.html",
   "_config.yml",
