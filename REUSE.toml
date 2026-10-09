@@ -28,12 +28,20 @@ path = [
   "src/_education/**",
   "src/_leadership/**",
   "src/pages/**",
-  "src/assets/badges/**",
   "src/assets/favicon.ico",
 ]
 precedence = "aggregate"
 SPDX-FileCopyrightText = "2026 Seán McGoff"
 SPDX-License-Identifier = "CC-BY-SA-4.0"
+
+[[annotations]]
+path = [
+  "src/assets/badges/**",
+  "src/assets/images/public-domain/**",
+]
+precedence = "aggregate"
+SPDX-FileCopyrightText = "NONE"
+SPDX-License-Identifier = "CC0-1.0"
 
 [[annotations]]
 path = "src/assets/fonts/anois/**"

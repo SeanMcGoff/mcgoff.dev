@@ -1,0 +1,32 @@
+---
+title: What to do when the prompter comes
+subtitle: 
+date: 2026-10-09
+tags: Sociology, AI
+lang: en
+---
+
+In 1983, DePauw University mathemetician Underwood Dudley published *[What to Do When the Trisector Comes](https://doi.org/10.1007/BF03023502)*. In it, he details the many people (men) who sent him letters claiming to have solved a provably impossible problem of trisection -- the act of splitting any arbitrary angle into three equal sub-angles using only a compass and a ruler. The article is less about the problem itself, and more about the psyche of the *cranks*, as he calls them, that send him their work. Often, they have very inflated views of the impact of such an algorithm, including such amusements as calling the discovery a precursor to the "discovery of the modern philosopher's stone."
+
+The problem of angle-trisection falls into a special category of problems that makes it ripe for this Dunning-Kruger contagion. It's incredibly simple to explain the problem; I was able to do it in half a sentence in the paragraph above. It can also be taught to any student who's taken a proof-based geometry class (although maybe the use of a manual compass and ruler would not translate well anymore). Despite the simplicity of its explanation, the [proof of its impossibility](https://en.wikipedia.org/wiki/Angle_trisection#Proof_of_impossibility) requires understanding a field of mathematics that is only taught at an undergraduate level -- Galois theory. This creates prime opportunity for an impressionable kid who heard *this is impossible to do* in Geometry class to register that as *nobody has figured it out yet*, and never be in an environment that would allow him to correct that interpretation. Combine that with an unhealthy dose of male bravado, and you get a trisector.
+
+>![Screenshot from an old textbook that says "No construction is known for exactly trisecting *any* angle"]({{"/assets/images/public-domain/macmillan-trisection.webp" | relative_url}})
+>
+><small>Source: [*From H.S. Hall & F.H. Stevens, A School Geometry (Toronto: Macmillan, 1918)*](https://archive.org/details/schoolgeometry00hall/page/78/mode/2up) Public domain.</small>
+
+At the very least, the people that would submit their work to Dudley and his colleagues were performing actual mathematics, albeit flawed in their results. Oftentimes, Dudley would actually read through their proofs and reply with something along the lines of "this is a good approximation, here's where you went wrong." After enough times of this interaction, he laments:
+
+>*The trisector will leave, but he will be back with a revised proof, longer, more complicated, and with the error harder to find. Enough repetitions of the revision process result in a proof that you are unable or unwilling to find the error in.*
+
+In the past year, we've developed a new name for this type of behavior -- "throwing a slop grenade." I was lobbed my first one, years before we had the name, when I debated a random American guy at a pub about whether Philadelphia Eagles quarterback Jalen Hurts was underrated or not (I still think sports-media gives him way more scrutiny than is deserved). After hearing my points on his playoff production in spite of having a new coordinator every year since college, he decided to pull out ChatGPT and ask who the top 10 quarterbacks are in the NFL. As LLMs are trained to return the majority opinion when asked something subjective, Jalen Hurts was, of course, not on that list. Naturally, the AI's "unbiased" opinion trumped any of my arguments that the majority opinion was wrong, and any attempt to explain how the way LLMs perform inference would create a fundamental bias fell on deaf ears.
+
+While this slop-grenade was annoying, it was largely benign. For as many NFL-bros using it to excuse Justin Herbert's lack of success, there are just as many cases of LLMs enabling crank behavior. It doesn't help that like the cranks of old, LLMs also have a tendency to overinflate the impact of a conversation topic as a means of validating the prompter. One major hosting platform for this type of content is [viXra](http://www.vixra.org) -- cheekily named after the reputable [arXiv](http://www.arxiv.org) in reverse. On this treasure trove of a site, you'll find quite a bit of burgeoning research on topics such as [universal primordial codes](https://vixra.org/abs/2607.0082), [alien artificial intelligence](https://vixra.org/abs/2610.0013), and of course, [angle trisections](https://vixra.org/abs/2412.0128). Even worse, now the scholars of these fields are armed with language models to help automate the padding of their egos and the burying of their errors.
+
+These two examples of slop grenades represent two ends of the spectrum. Oftentimes, most interactions with an *AI-native* person (still probably a man) tend to be somewhere in the middle. He sends you his part of the group assignment straight off the press of Claude. He might answer a question of yours on Slack with three paragraphs containing 20 em-dashes each and burden you with the task of searching for any merit. To the relentless prompter, some inspiration from Dudley's final suggestion could be useful:
+
+>*\[If they don't let up\], then be brutal. Write a letter that is harsh, scathing, and designed to make the writer hate you. He will in any event never bother you again, and some of the hate may be transformed into a dislike of mathematicians and a disinclination to pursue the trisection further, because we do not do things that cause us pain if we can help it. If everyone followed this course, the race of trisectors would wither and die. Then all those people who are cranks because it is part of their nature to be cranks would go and bother the economists, physicists, or theologians, and we could live in serenity and security, knowing that never again would the trisector come.*
+
+Obviously, mileage on this method may vary given the social setting, so use at your own discretion.
+
+## Also!
+Dudley has a book called [*Mathematical Cranks*](https://openlibrary.org/books/OL1748345M/Mathematical_cranks) which goes into all the other problems him and his colleagues received zany letters about. I highly recommend it if you are interested in reading more about pseudo-mathematics.
