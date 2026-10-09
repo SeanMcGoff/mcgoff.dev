@@ -153,6 +153,11 @@ article[lang="ga"]:has(#gaelic-font:checked) {
   font-size: large;
 }
 
+.article-body img {
+  max-width: 100%;
+  height: auto;
+}
+
 .article-body {
   padding-inline: 2%;
   text-align: justify;
